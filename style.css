@@ -1,8 +1,14 @@
-/*  General Styles  */
+
+/* General Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&family=Montserrat:wght@300;700&family=Nanum+Pen+Script&display=swap');
+
+
+
 body {
   margin: 0;
-  font-family: "sans-serif", Times, serif;
-  }
+  font-family: Helvetica, Arial, sans-serif;
+}
 
 img {
   width: 100%;
@@ -12,67 +18,55 @@ img.rounded {
   border-radius: 8px;
 }
 
-
-/*  pseudo-classes - colors for states of links */
-a:link    { color: purple;  }
-a:visited { color: red;   }
-a:hover   { color: rgb(30, 56, 206); }
-a:active  { color: rgb(20, 231, 13);  }
-
 main h2 {
   font-size: 28px;
-  font-family: cursive, georgia, serif;
+  font-family: 'Montserrat Alternates', sans-serif;
   font-weight: 400;
-  text-align: center;
 }
 
 main h3 {
   font-size: 22px;
-  font-family: cursive, georgia, serif;
+  font-family: 'Montserrat Alternates', sans-serif;
   font-weight: 400;
-  text-align: center;
 }
 
 main p {
-  font-family: "sans-serif", Times, serif;
-  margin-bottom: 0em;
-  line-height: 1.5em;
-  font-size: 20px;
-  text-align: left;
+ font-family: 'Montserrat', sans-serif;
+ line-height: 1.5em;
+ margin-bottom: 0em;
 }
 
+/* Header */
 
-/*  Header  */
 header {
-  background-color: rgba(163, 5, 168, 0.733);
+  background-color: #8f6484;
   margin-bottom: 40px;
   display: block;
 }
 
 header h1 {
-  color: pink;
+  color: #ffffff;
   text-align: center;
   margin: 0;
-  padding: 20px 0;
+  padding: 22px 0;
   font-family: cursive, georgia, serif;
-  font-size: 50px;
-  font-style: italic;
+  font-size: 45px;
 }
 
 
-/*   Main  */
-main .wrapper h2 {
+/*  Main */
+
+main  .wrapper  h2 {
   padding-left: 10px;
   margin-bottom: 0;
 }
 
 main .intro {
   font-size: 24px;
-  color: #5e6b5b;
+  color: #8f6484;
 }
 
-
-/*  Groups & Items - Mobile First */
+/* Groups & Items  (Mobile First) */
 .wrapper {
   width: 100%;
 }
@@ -92,9 +86,9 @@ main .intro {
   margin: 10px;
 }
 
+/* Groups & Items  (Desktop) */
 
-/*  Groups & Items - Desktop */
-@medial all and (min-width: 800px) {
+@media all and (min-width: 800px) {
   .wrapper {
     width: 80%;
     margin: auto;
@@ -105,17 +99,20 @@ main .intro {
   }
 }
 
+.space {
+  margin-top: 20px;
+}
 
-/*  Article Section */
+/* ARTICLE SECTIONS */
+
 #home, #portfolio, #contact {
   margin-bottom: 120px;
 }
 
+/* ABOUT ARTICLE */
 
-/*  About Article */
 #about {
-  background-color: rgba(137, 43, 226, 0.398);
+  background-color: #8f648433;
   padding: 20px 0 30px 0;
   margin: 120px 0;
 }
-

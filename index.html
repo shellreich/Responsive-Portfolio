@@ -1,93 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
+<html>
 
-    <!-- for responsive site  -->
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
-    <title>Michelle Reichenbach | Future Web Developer | Portfolio</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+	<title>Michelle Reichenbach | Future Web Developer | Portfolio</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
 
-    <!--  css file to normalize for more consistency within browsers -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+<body>
 
-    <!--  custom css file for cosmetic changes -->
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
+  <header>
+		<h1>Michelle Reichenbach</h1>
+	</header>
 
+	<main>
+		<div class="wrapper">
 
-  <body>
-    <header>
-      <h1>Michelle Reichenbach</h1>
-     </header>
+			<article id="home">
+				<div class='group'>
+					<div class='item'>
+						<img src="images/home/portfolio-pic.jpg" alt="Michelle's Portfolio Picture" class="image-style"> 
+				</div>
+        
+				<div class='item'>
+          <p class="intro">Welcome. I'm Michelle Reichenbach!</p>
+		<p >I am currently studying web development at BLOC and live in Bluffton, Ohio.</p>
+      <p>I hold an associate's degree in computer networking and have over 15 years experience in Information Technology. I have worked on teams in the financial, manufacturing, and medical industries.</p>
+				</div>
+			</div>
+      </article>
+		</div>
 
-<!--  start of main section  -->
-<main>
-  <div class="wrapper">
-     <article id="home">
-      <div class="group">
-        <div class="item">
-  <!--  profile image  -->
-    <img src="images/portfolio-pic.jpg" alt="Michelle's Portfolio Picture" />
-    </div>
-
-  <!-- first section - Welcome -->
-      <div class="item">
-      <p class="intro"> <img class="cat" src="images/cat.svg" width="50" alt="Purple cat image" />&nbsp; Welcome, I am Michelle Reichenbach</p>
-     <p >I am currently studying web development and working towards a certificate at <a href="http://thinkful.com" target="_blank">Thinkful</a>. I live in Bluffton, Ohio.</p>
-      <p>I hold an associate's degree in computer networking. I have over 15 years experience in Information Technology. I have worked on teams in the financial, manufacturing, and medical industries.</p>
+      <article id="about">
+        <div class="wrapper">
+        	<h2>About me</h2>
+			<div class='group'>
+				<div class='item-double'>
+    <p>My first exposure of web development was on a webTV in the late 90's. Now I am able to utilize my creativity and passion for creating websites. As I go through my journey of learning, I continue to collaborate with both developers and designers.</p>
+    <p> When not coding, I can be found enjoying time with Family and Friends, being creative with essential oils, or metal detecting.</p>
+    <p>Let me create a site that brings your business more traffic. My services include anything from site modifications and maintenance to a whole new website.</p>
+ 			</div>
+        	<div class='item'>
+<img src="images/about/holder.jpg" alt="Angel holding globe" class="rounded"> 
+					
+				</div>
+			</div>
       </div>
-     </div> 
-    </article>
-  </div>  
+      </article>
 
 
-
-<!-- second section - About Michelle-->
-<article id="about">
-  <div class="wrapper">
-   <h2>About Michelle</h2>
-  <div class="group">
-   <div class="item-double">
-    <p>My first exposure of web development was on a webTV in the 90's. Now I can utilize my creativity using my passion for creating websites. There are so many more options today for building websites. Check out my GitHub profile below to view my work.</p>
-   <p>My past volunteer experience has been working in groups to build homes for Habitat for Humanity. That is such a rewarding experience to see so many people volunteer and work together to help others. Highly recommended for anyone looking for something meaningful to volunteer for.</p>
-  <p >When not creating websites, I can be found: 
-  
-      Enjoying time with Family and Friends , Working with Essential Oils, and Metal Detecting</p>
-  </div>
-    <div class="item">
-    <img src="images/holder.jpg" alt="" class="rounded">
-  </div>
-</div>
-</div>
-</article>
-
-
-
-
-<!-- third section - Portfolio -->
 <div class="wrapper">
-   <article id="portfolio">
+      <article id="portfolio">
       <h2>Portfolio</h2>
 			<div class="group">
 				<div class="item">
-          <img src="images/under-construction.jpg" alt="Quiz App Screenshot" class="rounded">
+          <img src="images/portfolio/under-construction.jpg" alt="Quiz App Screenshot" class="rounded">
           <h3>Quiz App</h3>
 					<p>This is a description of the Quiz App I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it.</p>
 				</div>
 				<div class="item">
-          <img src="images/under-construction.jpg" alt="Bookmark App Screenshot" class="rounded">
+          <img src="images/portfolio/under-construction.jpg" alt="Bookmark App Screenshot" class="rounded">
           <h3>Bookmark App</h3>
 					<p>This is a description of the Bookmark App I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it.</p>
 				</div>
 			</div>
       <div class="group">
 				<div class="item">
-          <img src="images/under-construction.jpg" alt="Pet App Screenshot" class="rounded">
+          <img src="images/portfolio/under-construction.jpg" alt="Pet App Screenshot" class="rounded">
           <h3>Pet Appointment App</h3>
 					<p>This is a description of the Pet Appointment App I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it.</p>
 				</div>
 				<div class="item">
-          <img src="images/under-construction.jpg" alt="Team Project Screenshot" class="rounded">
+          <img src="images/portfolio/under-construction.jpg" alt="Team Project Screenshot" class="rounded">
           <h3>Team Project App</h3>
 					<p>This is a description of the Team Project App I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it.</p>
 				</div>
@@ -98,28 +84,58 @@
 
 
 
+      <article id="contact">
+         <h2>Contact</h2>
+			<div class="group">
+       
+				<div class="item">
+					<p>Content Form Here</p>
+				</div>
+				<div class="item">
+					<p>Phone #: 419.569.7115</p>
+          <p>Email: shellreich10@gmail.com<p>
+          <a href="https://www.linkedin.com/in/michellereichenbach/" target="_blank">LinkedIn</a>
+          <a href="https://github.com/shellreich" target="_blank">GitHub</a>
+         
+          
 
 
-<!-- fourth section - Contact-->
-<article id="contact">
-    <h2>Contact</h2>
-  <div class="group">
-    <div class="item">
-     <p>Content form</p>
-  </div>
-  <div class="item">
-    <p>Phone 419.569.7115</p>
-    <p>Email: shellreich10@gmail.com</p>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24129.00153754727!2d-83.90328994562304!3d40.89106861950694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883ebdd3105f0c53%3A0xb75308073add3470!2sBluffton%2C%20OH%2045817!5e0!3m2!1sen!2sus!4v1593785174431!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-  </div>
- </div> 
-</article>  
-    
-  </div>
-</main>
+<!--- Cannot get to work   
+<div>
+      <a href="https://www.linkedin.com/in/michellereichenbach target="_blank" >
+          <img   alt="LinkedIn" src="images/footer/linkedin.png" >
+           </a>
+
+         <a href="mailto:shellreich10@gmail.com">
+          <img class="size" alt="Email Me" src="images/footer/email.png">
+           </a>
+  
+          <a href="https://github.com/shellreich">
+          <img  class="size" alt="LinkedIn" src="images/footer/github.png">
+           </a>
+</div>
+--->
 
 
-<!-- Attach JavaScript file  -->
-    <script src="script.js"></script>
-  </body>
+      <iframe class="space" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24129.00153754727!2d-83.90328994562304!3d40.89106861950694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883ebdd3105f0c53%3A0xb75308073add3470!2sBluffton%2C%20OH%2045817!5e0!3m2!1sen!2sus!4v1593785174431!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+			</div>
+      </article>
+
+
+
+		</div>
+	</main>
+
+
+
+
+
+
+
+
+	<script src="script.js">
+	</script>
+</body>
+
 </html>
