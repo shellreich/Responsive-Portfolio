@@ -20,13 +20,13 @@ img.rounded {
 
 main h2 {
   font-size: 28px;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: cursive, georgia, serif;
   font-weight: 400;
 }
 
 main h3 {
   font-size: 22px;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: cursive, georgia, serif;
   font-weight: 400;
 }
 
@@ -51,6 +51,7 @@ header h1 {
   padding: 22px 0;
   font-family: cursive, georgia, serif;
   font-size: 45px;
+  font-weight: 200;
 }
 
 
