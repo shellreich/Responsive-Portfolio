@@ -89,12 +89,28 @@ main .intro {
 
 }
 
+iframe { 
+  border: 1px solid #8f6484;
+  border-radius: 8px;
+  }
+
+footer {
+  background-color: #8f6484;
+  color: white;
+  text-align: center;
+  height: 80px;
+  width: auto;
+  padding-top: 20px;
+}
+
+
+
 /* Groups & Items  (Desktop) */
 
 @media all and (min-width: 800px) {
   .wrapper {
     width: 80%;
-    margin: auto;
+    padding: 20px;
   }
 
   .group {
